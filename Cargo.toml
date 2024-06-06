@@ -1,0 +1,11 @@
+[package]
+name = "student_info_manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = "0.12"
+diesel = { version = "2.2", features = ["postgres", "chrono"] }
+dotenv = "0.15.0"
+tokio = { version = "1", features = ["full"] }
+chrono = "*"
